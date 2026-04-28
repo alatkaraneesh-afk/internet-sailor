@@ -1,12 +1,8 @@
 {
-    "name": "Ultraviolet-Devel",
-    "build": {
-      "dockerfile": "../docker/Dockerfile",
-      "target": "devel",
-      "context": "../"
-    },
-    "forwardPorts": [
-      8080
-    ],
-  "workspaceFolder": "/app"
-  }
+  "name": "Node.js",
+  "image": "://microsoft.com",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "forwardPorts": [8080]
+}
